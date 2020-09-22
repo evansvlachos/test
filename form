@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validateForm() {
+  var x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+function validateForm() {
+  var y = document.forms["myForm"]["fname"].value;
+  if (y == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+</script>
+</head>
+<body>
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+  vangelis: <input type="text" name="fname">
+  <input type="submit" value="Submit">
+</form>
+<form2 name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+  : <input type="text" name="fname">
+  <input type="submit" value="Submit">
+</form2>
+
+</body>
+</html>
