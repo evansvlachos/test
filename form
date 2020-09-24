@@ -27,6 +27,6 @@ function validateForm() {
   : <input type="text" name="fname">
   <input type="submit" value="Submit">
 </form2>
-
+document.getElementById("demo").innerHTML = x + "<br>" + y;
 </body>
 </html>
